@@ -8,7 +8,7 @@ package personam;
  *
  * @author 34633
  */
-public class Persona {
+public abstract class Persona {
     private String nombre;
     private int edad;
     private String dni;
@@ -104,7 +104,7 @@ public class Persona {
             return "No es mayor de edad";
         }
     }
-    public abstract void comprobarSexo();
+    public abstract char comprobarSexo(char sexo);
     /*
     Podriamos utilizar 
     */
